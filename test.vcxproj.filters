@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Shaders">
+      <UniqueIdentifier>{4ec99c04-0ac9-43e1-b2ec-7a4e82aa8615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\fonts">
+      <UniqueIdentifier>{d8450161-73f8-46d1-9e50-a9eed3cfd329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\textures">
+      <UniqueIdentifier>{3b035831-f362-4cb4-9e60-4d985a674e40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="spriteRender.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="object.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="spriteRender.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="text_2d.fs">
+      <Filter>Файлы ресурсов\Shaders</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="text_2d.vs">
+      <Filter>Файлы ресурсов\Shaders</Filter>
+    </None>
+    <None Include="sprite.fs">
+      <Filter>Файлы ресурсов\Shaders</Filter>
+    </None>
+    <None Include="sprite.vs">
+      <Filter>Файлы ресурсов\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="fonts\OCRAEXT.TTF">
+      <Filter>Файлы ресурсов\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\bird.png">
+      <Filter>Файлы ресурсов\textures</Filter>
+    </Image>
+    <Image Include="textures\bomber.png">
+      <Filter>Файлы ресурсов\textures</Filter>
+    </Image>
+    <Image Include="textures\fighter.png">
+      <Filter>Файлы ресурсов\textures</Filter>
+    </Image>
+    <Image Include="textures\meteor.png">
+      <Filter>Файлы ресурсов\textures</Filter>
+    </Image>
+    <Image Include="textures\missile.png">
+      <Filter>Файлы ресурсов\textures</Filter>
+    </Image>
+    <Image Include="textures\plane.png">
+      <Filter>Файлы ресурсов\textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
